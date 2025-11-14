@@ -1,0 +1,51 @@
+[
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_baseline_98.npy",
+        "brier_score": 0.0906,
+        "reliability": 0.0411,
+        "resolution": 0.2056,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_AA_seed98.npy",
+        "brier_score": 0.1701,
+        "reliability": 0.1309,
+        "resolution": 0.213,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_RA_seed98.npy",
+        "brier_score": 0.1635,
+        "reliability": 0.0718,
+        "resolution": 0.1556,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_TA_seed98.npy",
+        "brier_score": 0.1041,
+        "reliability": 0.0145,
+        "resolution": 0.1639,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed98_Exotropia_Efficient-B0_Cutout.npy",
+        "brier_score": 0.1316,
+        "reliability": 0.0141,
+        "resolution": 0.1389,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed98_Exotropia_Efficient-B0_CutMix.npy",
+        "brier_score": 0.0592,
+        "reliability": 0.0588,
+        "resolution": 0.25,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed98_Exotropia_Efficient-B0-Mixup.npy",
+        "brier_score": 0.0831,
+        "reliability": 0.0829,
+        "resolution": 0.25,
+        "uncertainty": 0.25
+    }
+]

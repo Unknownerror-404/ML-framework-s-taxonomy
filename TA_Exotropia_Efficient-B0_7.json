@@ -1,0 +1,100 @@
+{
+    "seed": 7,
+    "classifier_used": "Exotropia_Efficient-B0",
+    "augmentation_performed": "padded224",
+    "save_prefix": "Exotropia_Efficient-B0_TA",
+    "train_time_seconds": 138.5972269999911,
+    "metrics": {
+        "accuracy": 0.8333333333333334,
+        "auc": 0.9876543209876543,
+        "auc_ci": [
+            0.925,
+            1.0
+        ],
+        "pr_auc": 0.9888888888888889,
+        "pr_auc_ci": [
+            0.9365079365079365,
+            1.0
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "specificity": 1.0,
+        "npv": 0.75,
+        "confusion_matrix": [
+            [
+                9,
+                0
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "confusion_matrix_normalized": [
+            [
+                1.0,
+                0.0
+            ],
+            [
+                0.333,
+                0.667
+            ]
+        ],
+        "per_class_report": {
+            "padded_output_class2": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1-score": 0.8571428571428571,
+                "support": 9.0
+            },
+            "padded_output_class3": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1-score": 0.8,
+                "support": 9.0
+            },
+            "accuracy": 0.8333333333333334,
+            "macro avg": {
+                "precision": 0.875,
+                "recall": 0.8333333333333333,
+                "f1-score": 0.8285714285714285,
+                "support": 18.0
+            },
+            "weighted avg": {
+                "precision": 0.875,
+                "recall": 0.8333333333333334,
+                "f1-score": 0.8285714285714286,
+                "support": 18.0
+            }
+        }
+    },
+    "history": {
+        "train_loss": [
+            0.6787002086639404,
+            0.6053289522727331,
+            0.5151292706529299,
+            0.5199415360887846,
+            0.42902953550219536,
+            0.37720177074273425,
+            0.36931926881273586,
+            0.28788390879829723,
+            0.28931163003047305,
+            0.27574845030903816,
+            0.3001989809175332
+        ],
+        "val_metric": [
+            0.92,
+            0.56,
+            0.64,
+            0.68,
+            0.68,
+            0.68,
+            0.6000000000000001,
+            0.8,
+            0.8400000000000001,
+            0.8,
+            0.8400000000000001
+        ]
+    }
+}

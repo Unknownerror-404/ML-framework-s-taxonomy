@@ -1,0 +1,51 @@
+[
+    {
+        "model": "./y_prob_Efficient-B0_baseline_35.npy",
+        "brier_score": 0.18529291055622024,
+        "reliability": 0.11057796542640337,
+        "resolution": 0.1712962962962963,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Efficient-B0_AA_seed35.npy",
+        "brier_score": 0.2919093668345578,
+        "reliability": 0.2228070194764178,
+        "resolution": 0.1746031746031746,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Efficient-B0_RA_seed35.npy",
+        "brier_score": 0.2171454891745476,
+        "reliability": 0.10141469339594357,
+        "resolution": 0.1388888888888889,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Efficient-B0_TA_seed35.npy",
+        "brier_score": 0.3275252785139659,
+        "reliability": 0.14972532403209604,
+        "resolution": 0.05833333333333332,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed35_Efficient-B0_Cutout.npy",
+        "brier_score": 0.14314340761611422,
+        "reliability": 0.07403500698003206,
+        "resolution": 0.18055555555555555,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed35_Efficient-B0_CutMix.npy",
+        "brier_score": 0.27080492106649107,
+        "reliability": 0.1014383297387799,
+        "resolution": 0.08148148148148147,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed35_Efficient-B0-Mixup.npy",
+        "brier_score": 0.23277024263867238,
+        "reliability": 0.04600381588499567,
+        "resolution": 0.057407407407407414,
+        "uncertainty": 0.25
+    }
+]

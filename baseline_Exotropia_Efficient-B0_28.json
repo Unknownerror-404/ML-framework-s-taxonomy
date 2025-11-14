@@ -1,0 +1,113 @@
+{
+    "seed": 28,
+    "classifier_used": "Exotropia_Efficient-B0",
+    "augmentation_performed": "padded224",
+    "save_prefix": "Exotropia_Efficient-B0_baseline",
+    "train_time_seconds": 248.51490840000042,
+    "metrics": {
+        "accuracy": 0.8888888888888888,
+        "auc": 0.8765432098765432,
+        "auc_ci": [
+            0.6666666666666666,
+            1.0
+        ],
+        "pr_auc": 0.9254901960784314,
+        "pr_auc_ci": [
+            0.7913194444444445,
+            1.0
+        ],
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1": 0.875,
+        "specificity": 1.0,
+        "npv": 0.8181818181818182,
+        "confusion_matrix": [
+            [
+                9,
+                0
+            ],
+            [
+                2,
+                7
+            ]
+        ],
+        "confusion_matrix_normalized": [
+            [
+                1.0,
+                0.0
+            ],
+            [
+                0.222,
+                0.778
+            ]
+        ],
+        "per_class_report": {
+            "padded_output_class2": {
+                "precision": 0.8181818181818182,
+                "recall": 1.0,
+                "f1-score": 0.9,
+                "support": 9.0
+            },
+            "padded_output_class3": {
+                "precision": 1.0,
+                "recall": 0.7777777777777778,
+                "f1-score": 0.875,
+                "support": 9.0
+            },
+            "accuracy": 0.8888888888888888,
+            "macro avg": {
+                "precision": 0.9090909090909092,
+                "recall": 0.8888888888888888,
+                "f1-score": 0.8875,
+                "support": 18.0
+            },
+            "weighted avg": {
+                "precision": 0.9090909090909091,
+                "recall": 0.8888888888888888,
+                "f1-score": 0.8875,
+                "support": 18.0
+            }
+        }
+    },
+    "history": {
+        "loss": [],
+        "val_acc": [
+            0.6,
+            0.8,
+            0.8,
+            0.8,
+            0.7,
+            0.7,
+            0.7,
+            0.7,
+            0.7,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.7
+        ],
+        "val_auc": [
+            0.68,
+            0.72,
+            0.76,
+            0.76,
+            0.8,
+            0.8400000000000001,
+            0.8800000000000001,
+            0.8800000000000001,
+            0.8400000000000001,
+            0.8800000000000001,
+            0.8800000000000001,
+            0.8,
+            0.76,
+            0.8,
+            0.76,
+            0.8400000000000001,
+            0.8
+        ]
+    }
+}

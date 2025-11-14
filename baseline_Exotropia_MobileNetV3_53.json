@@ -1,0 +1,101 @@
+{
+    "seed": 53,
+    "classifier_used": "Efficient_MobileNetV3",
+    "augmentation_performed": "padded224",
+    "save_prefix": "Efficient_MobileNetV3_baseline",
+    "train_time_seconds": 77.57515670000066,
+    "metrics": {
+        "accuracy": 0.9444444444444444,
+        "auc": 0.9876543209876543,
+        "auc_ci": [
+            0.9259259259259259,
+            1.0
+        ],
+        "pr_auc": 0.9888888888888889,
+        "pr_auc_ci": [
+            0.9364285714285712,
+            1.0
+        ],
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9473684210526315,
+        "specificity": 0.8888888888888888,
+        "npv": 1.0,
+        "confusion_matrix": [
+            [
+                8,
+                1
+            ],
+            [
+                0,
+                9
+            ]
+        ],
+        "confusion_matrix_normalized": [
+            [
+                0.889,
+                0.111
+            ],
+            [
+                0.0,
+                1.0
+            ]
+        ],
+        "per_class_report": {
+            "padded_output_class2": {
+                "precision": 1.0,
+                "recall": 0.8888888888888888,
+                "f1-score": 0.9411764705882353,
+                "support": 9.0
+            },
+            "padded_output_class3": {
+                "precision": 0.9,
+                "recall": 1.0,
+                "f1-score": 0.9473684210526315,
+                "support": 9.0
+            },
+            "accuracy": 0.9444444444444444,
+            "macro avg": {
+                "precision": 0.95,
+                "recall": 0.9444444444444444,
+                "f1-score": 0.9442724458204335,
+                "support": 18.0
+            },
+            "weighted avg": {
+                "precision": 0.9500000000000001,
+                "recall": 0.9444444444444444,
+                "f1-score": 0.9442724458204333,
+                "support": 18.0
+            }
+        }
+    },
+    "history": {
+        "loss": [],
+        "val_acc": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.6,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.6,
+            0.5
+        ],
+        "val_auc": [
+            0.56,
+            0.52,
+            0.48,
+            0.44,
+            0.52,
+            0.48,
+            0.36,
+            0.36000000000000004,
+            0.44000000000000006,
+            0.56,
+            0.4800000000000001
+        ]
+    }
+}

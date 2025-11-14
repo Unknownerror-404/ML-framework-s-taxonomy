@@ -1,0 +1,11 @@
+{
+    "./data/test/class1/1.jpg":[5,100,140,325],
+    "./data/test/class1/9.jpg":[5,75,140,315],
+    "./data/test/class1/15.jpg":[15,80,135,320],
+    "./data/test/class1/35.jpg":[5,115,150,345],
+    "./data/test/class1/39.jpg":[5,100,125,330],
+    "./data/test/class1/40.jpg":[15,100,160,350],
+    "./data/test/class1/42.jpg":[20,85,150,290],
+    "./data/test/class1/43.jpg":[10,150,140,330],
+    "./data/test/class1/54.jpg":[20,170,150,330]
+}

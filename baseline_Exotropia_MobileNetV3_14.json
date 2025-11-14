@@ -1,0 +1,105 @@
+{
+    "seed": 14,
+    "classifier_used": "Efficient_MobileNetV3",
+    "augmentation_performed": "padded224",
+    "save_prefix": "Efficient_MobileNetV3_baseline",
+    "train_time_seconds": 105.1545707999976,
+    "metrics": {
+        "accuracy": 1.0,
+        "auc": 1.0,
+        "auc_ci": [
+            1.0,
+            1.0
+        ],
+        "pr_auc": 1.0,
+        "pr_auc_ci": [
+            0.9999999999999998,
+            1.0000000000000002
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "specificity": 1.0,
+        "npv": 1.0,
+        "confusion_matrix": [
+            [
+                9,
+                0
+            ],
+            [
+                0,
+                9
+            ]
+        ],
+        "confusion_matrix_normalized": [
+            [
+                1.0,
+                0.0
+            ],
+            [
+                0.0,
+                1.0
+            ]
+        ],
+        "per_class_report": {
+            "padded_output_class2": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 9.0
+            },
+            "padded_output_class3": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 9.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 18.0
+            },
+            "weighted avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 18.0
+            }
+        }
+    },
+    "history": {
+        "loss": [],
+        "val_acc": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.6,
+            0.5,
+            0.5,
+            0.6,
+            0.5,
+            0.6,
+            0.5,
+            0.5
+        ],
+        "val_auc": [
+            0.64,
+            0.6000000000000001,
+            0.76,
+            0.52,
+            0.5599999999999999,
+            0.6,
+            0.44,
+            0.44,
+            0.68,
+            0.7200000000000001,
+            0.6799999999999999,
+            0.6800000000000002,
+            0.6800000000000002
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "model": "./y_prob_Efficient-B0_baseline_42.npy",
+        "brier_score": 0.2311,
+        "reliability": 0.0978,
+        "resolution": 0.1177,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Efficient-B0_AA_seed42.npy",
+        "brier_score": 0.1834,
+        "reliability": 0.1243,
+        "resolution": 0.1944,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Efficient-B0_RA_seed42.npy",
+        "brier_score": 0.1857,
+        "reliability": 0.089,
+        "resolution": 0.1481,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Efficient-B0_TA_seed42.npy",
+        "brier_score": 0.245,
+        "reliability": 0.1059,
+        "resolution": 0.1065,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed42_Efficient-B0_Cutout.npy",
+        "brier_score": 0.2151,
+        "reliability": 0.0945,
+        "resolution": 0.1278,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed42_Efficient-B0_CutMix.npy",
+        "brier_score": 0.2655,
+        "reliability": 0.1375,
+        "resolution": 0.1131,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed42_MobileNetV3-Mixup.npy",
+        "brier_score": 0.1933,
+        "reliability": 0.0751,
+        "resolution": 0.1336,
+        "uncertainty": 0.25
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_baseline_98.npy",
+        "brier_score": 0.09063576227050202,
+        "reliability": 0.041102314545004584,
+        "resolution": 0.20555555555555557,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_AA_seed98.npy",
+        "brier_score": 0.17009403706965337,
+        "reliability": 0.1308832351194158,
+        "resolution": 0.21296296296296297,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_RA_seed98.npy",
+        "brier_score": 0.16345852847791498,
+        "reliability": 0.07178714141618751,
+        "resolution": 0.15555555555555556,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_Exotropia_Efficient-B0_TA_seed98.npy",
+        "brier_score": 0.104059547918686,
+        "reliability": 0.014494028108293632,
+        "resolution": 0.1638888888888889,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed98_Exotropia_Efficient-B0_Cutout.npy",
+        "brier_score": 0.13159510889086334,
+        "reliability": 0.014062457845166791,
+        "resolution": 0.1388888888888889,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed98_Exotropia_Efficient-B0_CutMix.npy",
+        "brier_score": 0.059223610542484914,
+        "reliability": 0.058808326983232004,
+        "resolution": 0.25,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed98_Exotropia_Efficient-B0-Mixup.npy",
+        "brier_score": 0.08310954673620939,
+        "reliability": 0.08288202213381098,
+        "resolution": 0.25,
+        "uncertainty": 0.25
+    }
+]

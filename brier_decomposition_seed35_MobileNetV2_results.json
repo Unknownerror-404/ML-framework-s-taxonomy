@@ -1,0 +1,51 @@
+[
+    {
+        "model": "./y_prob_MobileNetV2_baseline_35.npy",
+        "brier_score": 0.1802,
+        "reliability": 0.0621,
+        "resolution": 0.1167,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_MobileNet-V2_AA_seed35.npy",
+        "brier_score": 0.2217,
+        "reliability": 0.1367,
+        "resolution": 0.1667,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_MobileNetV2_RA_seed35.npy",
+        "brier_score": 0.3836,
+        "reliability": 0.2018,
+        "resolution": 0.0556,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_MobileNet_V2_TA_seed35.npy",
+        "brier_score": 0.337,
+        "reliability": 0.2385,
+        "resolution": 0.1389,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed35_MobileNetV2_Cutout.npy",
+        "brier_score": 0.342,
+        "reliability": 0.2046,
+        "resolution": 0.1056,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed35_MobileNetV2_CutMix.npy",
+        "brier_score": 0.2883,
+        "reliability": 0.2149,
+        "resolution": 0.1759,
+        "uncertainty": 0.25
+    },
+    {
+        "model": "./y_prob_seed35_MobileNetV2-Mixup.npy",
+        "brier_score": 0.2474,
+        "reliability": 0.1,
+        "resolution": 0.0959,
+        "uncertainty": 0.25
+    }
+]
