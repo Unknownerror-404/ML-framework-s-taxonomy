@@ -1,0 +1,113 @@
+{
+    "seed": 14,
+    "classifier_used": "Esotropia_Efficient-B0",
+    "augmentation_performed": "AutoAugment",
+    "save_prefix": "Esotropia_Efficient-B0_AA_wpattern",
+    "train_time_seconds": 268.2486813000005,
+    "metrics": {
+        "accuracy": 0.5,
+        "auc": 0.7283950617283952,
+        "auc_ci": [
+            0.46247596153846154,
+            0.974025974025974
+        ],
+        "pr_auc": 0.806971677559913,
+        "pr_auc_ci": [
+            0.5705582232893157,
+            0.9747951680672269
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "specificity": 0.0,
+        "npv": 0.0,
+        "confusion_matrix": [
+            [
+                0,
+                9
+            ],
+            [
+                0,
+                9
+            ]
+        ],
+        "confusion_matrix_normalized": [
+            [
+                0.0,
+                1.0
+            ],
+            [
+                0.0,
+                1.0
+            ]
+        ],
+        "per_class_report": {
+            "esotropia_wpattern": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 9.0
+            },
+            "padded_output_class2_normal": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1-score": 0.6666666666666666,
+                "support": 9.0
+            },
+            "accuracy": 0.5,
+            "macro avg": {
+                "precision": 0.25,
+                "recall": 0.5,
+                "f1-score": 0.3333333333333333,
+                "support": 18.0
+            },
+            "weighted avg": {
+                "precision": 0.25,
+                "recall": 0.5,
+                "f1-score": 0.3333333333333333,
+                "support": 18.0
+            }
+        }
+    },
+    "history": {
+        "loss": [
+            0.5609826445579529,
+            0.2533932246945121,
+            0.13488151607188312,
+            0.0524220002645796,
+            0.052992829206314956,
+            0.038389748047021305,
+            0.017002793282947758,
+            0.020219120916656473,
+            0.015005925670266151,
+            0.022130835505033083,
+            0.01096600164997984
+        ],
+        "val_acc": [
+            0.7,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "val_auc": [
+            0.8400000000000001,
+            0.7600000000000001,
+            0.8,
+            0.56,
+            0.52,
+            0.48000000000000004,
+            0.52,
+            0.52,
+            0.52,
+            0.4,
+            0.28
+        ]
+    }
+}
