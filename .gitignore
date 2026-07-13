@@ -1,0 +1,29 @@
+# Model weights and outputs
+*.pth
+*.pt
+
+# Raw data
+padded/
+data/
+dataset/
+
+#outputs/
+__pycache__/
+cropped/
+data/splits/
+data/test/
+data/test_corrupt/
+data/train/
+data/val/
+
+# Large arrays
+*.npy
+*.npz
+
+#json helpers:
+class1_left_eye.json/
+
+# Plots
+*.png
+*.jpg
+*.jpeg
